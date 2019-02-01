@@ -1,8 +1,32 @@
-h1 {
-    color: red;
+.bl-minus{
+    background-color: red;
+}
+.bl-plus{
+    background-color: green;
+}
+.delete{
+    background-color:red;
+}
+.bl-list {
+    width:720px;
+    background: white;
+    float:left;
+    display:inline-block;
+    margin:100px 30px auto 100px;
+    border: 1px solid rgba(34,36,38,.15);
+    border-radius:5px;
 }
 
-.text2018 {
-    color: #ff59c0;
-    font-size: 40px;
+.bl-bought {
+    width:300px;
+    height:200px;
+    background: white;
+    display:inline-block;
+    margin-top:100px;
+}
+.products1, .products2, .products3{
+    background-color: lightgray;
+}
+#products1,#products2,#products3{
+    background-color: orange;
 }
