@@ -6,63 +6,64 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
-<div class="bl-background">  
-    <div class="bl-list">
-        <div class="name_add">
-            <input class="name_goods" type="text" value="Назва товару">
+<div class="container">  
+    <div class="left debug">
+        <div class="name-add">
+               <div class="form-group"><input class="name-goods" type="text" placeholder="Назва товару"></div>
             <button class="add">Додати</button>
         </div>  
-        <div class="bl-row">
-            <div class="bl-product">
-                Помідори
+        <div class="row">
+            <div class="row-product">
+                <span>Помідори</span>
             </div>
-            <div class="bl-count">
-                <button class="bl-minus">-</button>
-                <span class="bl-label">1</span>
-                <button class="bl-plus">+</button>
+            <div class="count">
+                <button class="btn minus">-</button>
+                <span class="label">1</span>
+                <button class="btn plus">+</button>
             </div>
-            <div class="bl-buttons">
+            <div class="buttons">
                 <button class="bought">Куплено</button>
                 <button class="delete">x</button>
             </div>
         </div>
-        <div class="bl-row">
-            <div class="bl-product">
-                Печиво
+        <div class="row">
+            <div class="row-product">
+                <span>Печиво</span>
             </div>
-            <div class="bl-count">
-                <button class="bl-minus">-</button>
-                <span class="bl-label">1</span>
-                <button class="bl-plus">+</button>
+            <div class="count">
+                <button class="btn minus">-</button>
+                <span class="label">1</span>
+                <button class="btn plus">+</button>
             </div>
-            <div class="bl-buttons">
+            <div class="buttons">
                <button class="bought">Куплено</button>
                 <button class="delete">x</button>
             </div>
         </div>
-        <div class="bl-row">
-            <div class="bl-product">
-                Сир
+        <div class="row">
+            <div class="row-product">
+                <span>Сир</span>
             </div>
-            <div class="bl-count">
-                <button class="bl-minus">-</button>
-                <span class="bl-label">1</span>
-                <button class="bl-plus">+</button>
+            <div class="count">
+                <button class="btn minus">-</button>
+                <span class="label">1</span>
+                <button class="btn plus">+</button>
             </div>
-            <div class="bl-buttons">
+            <div class="buttons">
                 <button class="bought">Куплено</button>
                 <button class="delete">x</button>
             </div>
         </div>    
     </div>
-    <div class="bl-bought">
-        <div class="bl-title">Залишилося</div>
-        <div class="products">
-            <div class="products1">Помідори</div><span id="products1">1</span>
-            <div class="products2">Печиво</div><span id="products2">1</span>
-            <div class="products3">Сир</div><span id="products3">1</span>
+    <div class="right debug">
+        <div class="segment"><h3>Залишилося</h3></div>
+        <div class="segment">
+           <span class="product-item">Помідори<span class="amount">1</span></span>
+            <span class="product-item">Печиво<span class="amount">1</span></span>
+            <span class="product-item">Сир<span class="amount">1</span></span>
         </div>
-        <div class="bl-title">Куплено</div>
+        <div class="segment"><h3>Куплено</h3></div>
+        <div class="segment"></div>
     </div>
 </div>
 </body>
