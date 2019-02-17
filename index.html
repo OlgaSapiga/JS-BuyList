@@ -10,20 +10,20 @@
     <div class="left debug">
         <div class="name-add">
                <div class="form-group"><input class="name-goods" type="text" placeholder="Назва товару"></div>
-            <button class="add">Додати</button>
+            <button class="add" data-tooltip="Add new product">Додати</button>
         </div>  
         <div class="row">
             <div class="row-product">
                 <span>Помідори</span>
             </div>
             <div class="count">
-                <button class="btn minus">-</button>
+                <button class="btn minus" data-tooltip="Remove 1 product">-</button>
                 <span class="label">1</span>
-                <button class="btn plus">+</button>
+                <button class="btn plus" data-tooltip="Add 1 product">+</button>
             </div>
             <div class="buttons">
-                <button class="bought">Куплено</button>
-                <button class="delete">x</button>
+                <button class="bought" data-tooltip="Bought">Куплено</button>
+                <button class="delete" data-tooltip="Delete">x</button>
             </div>
         </div>
         <div class="row">
@@ -31,13 +31,13 @@
                 <span>Печиво</span>
             </div>
             <div class="count">
-                <button class="btn minus">-</button>
+                <button class="btn minus" data-tooltip="Remove 1 product">-</button>
                 <span class="label">1</span>
-                <button class="btn plus">+</button>
+                <button class="btn plus" data-tooltip="Add 1 product">+</button>
             </div>
             <div class="buttons">
-               <button class="bought">Куплено</button>
-                <button class="delete">x</button>
+               <button class="bought" data-tooltip="Bought">Куплено</button>
+                <button class="delete" data-tooltip="Delete">x</button>
             </div>
         </div>
         <div class="row">
@@ -45,13 +45,13 @@
                 <span>Сир</span>
             </div>
             <div class="count">
-                <button class="btn minus">-</button>
+                <button class="btn minus" data-tooltip="Remove 1 product">-</button>
                 <span class="label">1</span>
-                <button class="btn plus">+</button>
+                <button class="btn plus" data-tooltip="Add 1 product">+</button>
             </div>
             <div class="buttons">
-                <button class="bought">Куплено</button>
-                <button class="delete">x</button>
+                <button class="bought" data-tooltip="Bought">Куплено</button>
+                <button class="delete" data-tooltip="Delete">x</button>
             </div>
         </div>    
     </div>
@@ -66,5 +66,17 @@
         <div class="segment"></div>
     </div>
 </div>
+ <div class="nametag">
+        <span>BuyList</span>
+     <div class="withname">
+        <div id="buylist">BuyList</div><br>
+         <span id="myname">Created by:<br>
+         Olga Sapiga</span>
+     </div>
+     <div class="onlyname">
+      <span>Created by:<br>
+         Olga Sapiga</span>
+     </div>
+    </div>
 </body>
 </html>
